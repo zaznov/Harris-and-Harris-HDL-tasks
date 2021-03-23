@@ -1,0 +1,25 @@
+|binary_uni
+a[0] => y~7.IN1
+a[0] => y~4.IN0
+a[0] => y~0.IN1
+a[1] => y~7.IN0
+a[1] => y~6.IN0
+a[1] => y~2.IN0
+a[1] => y~0.IN0
+a[2] => y~8.IN0
+a[2] => y~6.IN1
+a[2] => y~4.IN1
+a[2] => y~3.IN0
+a[2] => y~2.IN1
+a[2] => y~1.IN1
+a[2] => y[3].DATAIN
+y[0] <= y~1.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y~2.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y~3.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= a[2].DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= y~5.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= y~6.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= y~8.DB_MAX_OUTPUT_PORT_TYPE
+y[7] <= <GND>
+
+

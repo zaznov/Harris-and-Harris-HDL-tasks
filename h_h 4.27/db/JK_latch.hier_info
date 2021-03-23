@@ -1,0 +1,9 @@
+|JK_latch
+J => Q~1.OUTPUTSELECT
+J => always0~0.IN1
+K => Q~0.OUTPUTSELECT
+K => always0~0.IN0
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

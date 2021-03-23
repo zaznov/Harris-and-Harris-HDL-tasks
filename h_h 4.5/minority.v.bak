@@ -1,0 +1,11 @@
+ module minority(input logic a, b, c;
+				output logic y );
+			
+			
+			
+	//assign y = a&b | a&c | b&c;
+	assign y = ~(a|b) | (~c)&(a^b);
+
+endmodule
+
+

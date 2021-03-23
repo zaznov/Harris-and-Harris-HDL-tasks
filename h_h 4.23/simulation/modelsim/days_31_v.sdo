@@ -1,0 +1,96 @@
+// Copyright (C) 1991-2009 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+
+// 
+// Device: Altera EPF10K50SQC240-3 Package PQFP240
+// 
+
+// 
+// This SDF file should be used for ModelSim-Altera (Verilog) only
+// 
+
+(DELAYFILE
+  (SDFVERSION "2.1")
+  (DESIGN "days_31")
+  (DATE "03/16/2021 12:17:54")
+  (VENDOR "Altera")
+  (PROGRAM "Quartus II")
+  (VERSION "Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition")
+  (DIVIDER .)
+  (TIMESCALE 1 ns)
+
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (2.2:2.2:2.2) (2.2:2.2:2.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (2.2:2.2:2.2) (2.2:2.2:2.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (2.2:2.2:2.2) (2.2:2.2:2.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (2.2:2.2:2.2) (2.2:2.2:2.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE WideOr0\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE y\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (1.3:1.3:1.3) (1.3:1.3:1.3))
+        (IOPATH datain padio (4.6:4.6:4.6) (4.6:4.6:4.6))
+      )
+    )
+  )
+)

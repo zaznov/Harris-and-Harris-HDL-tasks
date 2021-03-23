@@ -1,0 +1,17 @@
+|drinks
+value[0] => Equal0.IN29
+value[0] => Equal1.IN0
+value[0] => Equal2.IN30
+value[1] => Equal0.IN30
+value[1] => Equal1.IN30
+value[1] => Equal2.IN0
+value[2] => Equal0.IN31
+value[2] => Equal1.IN31
+value[2] => Equal2.IN31
+give_1_ruble_back <= give_1_ruble_back~0.DB_MAX_OUTPUT_PORT_TYPE
+give_2_rubles_back <= give_2_rubles_back~0.DB_MAX_OUTPUT_PORT_TYPE
+give_3_rubles_back <= give_3_rubles_back~0.DB_MAX_OUTPUT_PORT_TYPE
+give_4_rubles_back <= give_4_rubles_back~0.DB_MAX_OUTPUT_PORT_TYPE
+take_ur_drink <= take_ur_drink~3.DB_MAX_OUTPUT_PORT_TYPE
+
+

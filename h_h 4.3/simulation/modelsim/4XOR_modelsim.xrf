@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, E:/Dmitry/Harris_harris/h_h 4.3/4XOR.sv
+source_file = 1, E:/Dmitry/Harris_harris/h_h 4.3/db/4XOR.cbx.xml
+design_name = four_XOR
+instance = comp, \a[0]~I , a[0], four_XOR, 1
+instance = comp, \a[2]~I , a[2], four_XOR, 1
+instance = comp, \a[1]~I , a[1], four_XOR, 1
+instance = comp, \a[3]~I , a[3], four_XOR, 1
+instance = comp, \WideXor0~0 , WideXor0~0, four_XOR, 1
+instance = comp, \y~I , y, four_XOR, 1

@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, E:/Dmitry/Harris_harris/h_h 4.27/JK_latch.sv
+source_file = 1, E:/Dmitry/Harris_harris/h_h 4.27/db/JK_latch.cbx.xml
+design_name = JK_latch
+instance = comp, \J~I , J, JK_latch, 1
+instance = comp, \K~I , K, JK_latch, 1
+instance = comp, \CLK~I , CLK, JK_latch, 1
+instance = comp, \Q~reg0 , Q~reg0, JK_latch, 1
+instance = comp, \Q~I , Q, JK_latch, 1

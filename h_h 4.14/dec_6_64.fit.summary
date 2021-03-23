@@ -1,0 +1,11 @@
+Fitter Status : Successful - Mon Mar 15 11:16:04 2021
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition
+Revision Name : dec_6_64
+Top-level Entity Name : dec_6_64
+Family : FLEX10KE
+Device : EPF10K50SQC240-3
+Timing Models : Final
+Total logic elements : 0 / 2,880 ( 0 % )
+Total pins : 70 / 189 ( 37 % )
+Total memory bits : 0 / 40,960 ( 0 % )
+Total PLLs : 0

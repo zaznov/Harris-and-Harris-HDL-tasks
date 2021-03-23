@@ -1,0 +1,100 @@
+|dec_6_64
+in[0] => in[0]~5.IN1
+in[1] => in[1]~4.IN1
+in[2] => in[2]~3.IN1
+in[3] => in[3]~2.IN1
+in[4] => in[4]~1.IN1
+in[5] => in[5]~0.IN1
+out[0] <= <GND>
+out[1] <= <GND>
+out[2] <= <GND>
+out[3] <= <GND>
+out[4] <= <GND>
+out[5] <= <GND>
+out[6] <= <GND>
+out[7] <= <GND>
+out[8] <= <GND>
+out[9] <= <GND>
+out[10] <= <GND>
+out[11] <= <GND>
+out[12] <= <GND>
+out[13] <= <GND>
+out[14] <= <GND>
+out[15] <= <GND>
+out[16] <= <GND>
+out[17] <= <GND>
+out[18] <= <GND>
+out[19] <= <GND>
+out[20] <= <GND>
+out[21] <= <GND>
+out[22] <= <GND>
+out[23] <= <GND>
+out[24] <= <GND>
+out[25] <= <GND>
+out[26] <= <GND>
+out[27] <= <GND>
+out[28] <= <GND>
+out[29] <= <GND>
+out[30] <= <GND>
+out[31] <= <GND>
+out[32] <= <GND>
+out[33] <= <GND>
+out[34] <= <GND>
+out[35] <= <GND>
+out[36] <= <GND>
+out[37] <= <GND>
+out[38] <= <GND>
+out[39] <= <GND>
+out[40] <= <GND>
+out[41] <= <GND>
+out[42] <= <GND>
+out[43] <= <GND>
+out[44] <= <GND>
+out[45] <= <GND>
+out[46] <= <GND>
+out[47] <= <GND>
+out[48] <= <GND>
+out[49] <= <GND>
+out[50] <= <GND>
+out[51] <= <GND>
+out[52] <= <GND>
+out[53] <= <GND>
+out[54] <= <GND>
+out[55] <= <GND>
+out[56] <= <GND>
+out[57] <= <GND>
+out[58] <= <GND>
+out[59] <= <GND>
+out[60] <= <GND>
+out[61] <= <GND>
+out[62] <= <GND>
+out[63] <= <GND>
+
+
+|dec_6_64|dec_2_4:dec_lower
+sel[0] => Decoder0.IN1
+sel[1] => Decoder0.IN0
+y[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dec_6_64|dec_2_4:dec_middle
+sel[0] => Decoder0.IN1
+sel[1] => Decoder0.IN0
+y[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dec_6_64|dec_2_4:dec_upper
+sel[0] => Decoder0.IN1
+sel[1] => Decoder0.IN0
+y[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+

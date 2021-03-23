@@ -1,0 +1,14 @@
+|semisegment
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
+y[0] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= y~1.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= y~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

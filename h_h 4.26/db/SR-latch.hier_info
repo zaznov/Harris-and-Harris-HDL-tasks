@@ -1,0 +1,8 @@
+|SR_latch
+R => comb~1.IN0
+R => Q~0.IN0
+R => comb~0.IN0
+S => Q~0.IN1
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

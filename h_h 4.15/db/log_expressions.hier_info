@@ -1,0 +1,16 @@
+|log_expressions
+a[0] => p~8.IN1
+a[0] => p~5.IN1
+a[0] => p~2.IN1
+a[1] => p~5.IN0
+a[1] => p~0.IN1
+a[1] => p~8.IN0
+a[2] => p~9.IN0
+a[2] => p~2.IN0
+a[2] => p~0.IN0
+a[2] => p~6.IN0
+a[3] => p~1.IN1
+a[3] => p~3.IN0
+p <= p~10.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,11 @@
+Fitter Status : Successful - Mon Mar 22 13:22:53 2021
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition
+Revision Name : state_mashine
+Top-level Entity Name : state_mashine
+Family : FLEX10KE
+Device : EPF10K50SQC240-3
+Timing Models : Final
+Total logic elements : 4 / 2,880 ( < 1 % )
+Total pins : 8 / 189 ( 4 % )
+Total memory bits : 0 / 40,960 ( 0 % )
+Total PLLs : 0

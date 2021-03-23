@@ -1,0 +1,12 @@
+|Schnecke
+value => Selector2.IN0
+value => nextstate.S2.DATAB
+value => nextstate.S1.DATAB
+value => q~1.IN1
+value => Selector1.IN0
+value => Selector0.IN3
+value => Selector0.IN4
+value => q~0.IN1
+q <= q~2.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,5 @@
+
+State Machine - |state_mashine_parade|state_mashine_mode:state_mashine_mode|state
+Name state.S1 
+state.S0 0 
+state.S1 1 

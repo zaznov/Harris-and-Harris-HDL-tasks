@@ -1,0 +1,14 @@
+|minority
+a => y2~0.IN0
+a => y1~1.IN0
+a => y1~0.IN0
+b => y2~0.IN1
+b => y1~3.IN0
+b => y1~0.IN1
+c => y1~3.IN1
+c => y1~1.IN1
+c => y2~1.IN0
+y1 <= y1~4.DB_MAX_OUTPUT_PORT_TYPE
+y2 <= y2~2.DB_MAX_OUTPUT_PORT_TYPE
+
+

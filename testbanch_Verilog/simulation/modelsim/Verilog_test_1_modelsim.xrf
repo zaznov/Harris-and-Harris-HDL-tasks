@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, E:/Dmitry/Harris_harris/testbanch_Verilog/silly.v
+source_file = 1, E:/Dmitry/Harris_harris/testbanch_Verilog/sillyfunction_test.v
+source_file = 1, E:/Dmitry/Harris_harris/testbanch_Verilog/db/Verilog_test_1.cbx.xml
+design_name = sillyfunction
+instance = comp, \a~I , a, sillyfunction, 1
+instance = comp, \c~I , c, sillyfunction, 1
+instance = comp, \b~I , b, sillyfunction, 1
+instance = comp, \y~7 , y~7, sillyfunction, 1
+instance = comp, \y~I , y, sillyfunction, 1

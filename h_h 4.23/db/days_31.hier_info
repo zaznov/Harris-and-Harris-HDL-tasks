@@ -1,0 +1,8 @@
+|days_31
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
+y <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

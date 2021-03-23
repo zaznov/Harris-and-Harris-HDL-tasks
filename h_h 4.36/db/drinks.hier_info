@@ -1,0 +1,28 @@
+|drinks
+CLK => summ[3]~reg0.CLK
+CLK => summ[2]~reg0.CLK
+CLK => summ[1]~reg0.CLK
+CLK => summ[0]~reg0.CLK
+value[0] => Equal0.IN29
+value[0] => Equal1.IN0
+value[0] => Equal2.IN30
+value[1] => Equal0.IN30
+value[1] => Equal1.IN30
+value[1] => Equal2.IN0
+value[2] => Equal0.IN31
+value[2] => Equal1.IN31
+value[2] => Equal2.IN31
+reset => summ[3]~reg0.ACLR
+reset => summ[2]~reg0.ACLR
+reset => summ[1]~reg0.ACLR
+reset => summ[0]~reg0.ACLR
+give_1_ruble_back <= give_1_ruble_back~0.DB_MAX_OUTPUT_PORT_TYPE
+give_2_rubles_back <= give_2_rubles_back~0.DB_MAX_OUTPUT_PORT_TYPE
+give_4_rubles_back <= give_4_rubles_back~0.DB_MAX_OUTPUT_PORT_TYPE
+summ[0] <= summ[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+summ[1] <= summ[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+summ[2] <= summ[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+summ[3] <= summ[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+M <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+

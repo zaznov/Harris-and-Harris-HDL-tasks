@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, E:/Dmitry/Harris_harris/h_h 4.13/dec_2_4.sv
+source_file = 1, E:/Dmitry/Harris_harris/h_h 4.13/db/dec_2_4.cbx.xml
+design_name = dec_2_4
+instance = comp, \sel[0]~I , sel[0], dec_2_4, 1
+instance = comp, \sel[1]~I , sel[1], dec_2_4, 1
+instance = comp, \Decoder0~0 , Decoder0~0, dec_2_4, 1
+instance = comp, \Decoder0~1 , Decoder0~1, dec_2_4, 1
+instance = comp, \Decoder0~2 , Decoder0~2, dec_2_4, 1
+instance = comp, \Decoder0~3 , Decoder0~3, dec_2_4, 1
+instance = comp, \y[0]~I , y[0], dec_2_4, 1
+instance = comp, \y[1]~I , y[1], dec_2_4, 1
+instance = comp, \y[2]~I , y[2], dec_2_4, 1
+instance = comp, \y[3]~I , y[3], dec_2_4, 1

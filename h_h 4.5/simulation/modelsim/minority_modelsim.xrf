@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, E:/Dmitry/Harris_harris/h_h 4.5/minority.sv
+source_file = 1, E:/Dmitry/Harris_harris/h_h 4.5/minority.vwf
+source_file = 1, E:/Dmitry/Harris_harris/h_h 4.5/db/minority.cbx.xml
+design_name = minority
+instance = comp, \b~I , b, minority, 1
+instance = comp, \c~I , c, minority, 1
+instance = comp, \a~I , a, minority, 1
+instance = comp, \y1~5 , y1~5, minority, 1
+instance = comp, \y2~2 , y2~2, minority, 1
+instance = comp, \y1~I , y1, minority, 1
+instance = comp, \y2~I , y2, minority, 1

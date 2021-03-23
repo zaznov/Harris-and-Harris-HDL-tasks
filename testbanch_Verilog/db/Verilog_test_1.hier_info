@@ -1,0 +1,11 @@
+|sillyfunction
+a => y~4.IN0
+a => y~0.IN0
+b => y~0.IN1
+b => y~4.IN1
+c => y~5.IN0
+c => y~1.IN1
+c => y~2.IN0
+y <= y~6.DB_MAX_OUTPUT_PORT_TYPE
+
+

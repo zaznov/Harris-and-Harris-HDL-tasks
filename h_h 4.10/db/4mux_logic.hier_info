@@ -1,0 +1,27 @@
+|mux_4_logic
+sel_abc[0] => sel_abc[0]~1.IN2
+sel_abc[1] => sel_abc[1]~0.IN2
+sel_abc[2] => y~0.OUTPUTSELECT
+y <= y~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux_4_logic|mux_4:mux_lower
+sel[0] => Mux0.IN1
+sel[1] => Mux0.IN0
+data[0] => Mux0.IN5
+data[1] => Mux0.IN4
+data[2] => Mux0.IN3
+data[3] => Mux0.IN2
+y <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux_4_logic|mux_4:mux_upper
+sel[0] => Mux0.IN1
+sel[1] => Mux0.IN0
+data[0] => Mux0.IN5
+data[1] => Mux0.IN4
+data[2] => Mux0.IN3
+data[3] => Mux0.IN2
+y <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

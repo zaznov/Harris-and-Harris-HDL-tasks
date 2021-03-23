@@ -1,0 +1,22 @@
+|mux_logic
+sel_abc[0] => sel_abc[0]~2.IN1
+sel_abc[1] => sel_abc[1]~1.IN1
+sel_abc[2] => sel_abc[2]~0.IN1
+y_out <= mux_8:comb_4.port2
+
+
+|mux_logic|mux_8:comb_4
+sel[0] => Mux0.IN2
+sel[1] => Mux0.IN1
+sel[2] => Mux0.IN0
+data[0] => Mux0.IN10
+data[1] => Mux0.IN9
+data[2] => Mux0.IN8
+data[3] => Mux0.IN7
+data[4] => Mux0.IN6
+data[5] => Mux0.IN5
+data[6] => Mux0.IN4
+data[7] => Mux0.IN3
+y <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

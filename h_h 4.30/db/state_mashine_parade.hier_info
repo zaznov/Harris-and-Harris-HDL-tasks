@@ -1,0 +1,34 @@
+|state_mashine_parade
+P => P~0.IN1
+R => R~0.IN1
+CLK => CLK~0.IN2
+move_a => move_a~0.IN1
+move_b => move_b~0.IN1
+reset => reset~0.IN2
+Light_A[0] <= state_mashine_lights:state_mashine_lights.port5
+Light_A[1] <= state_mashine_lights:state_mashine_lights.port5
+Light_B[0] <= state_mashine_lights:state_mashine_lights.port6
+Light_B[1] <= state_mashine_lights:state_mashine_lights.port6
+
+
+|state_mashine_parade|state_mashine_mode:state_mashine_mode
+P => nextstate.S1.DATAB
+P => nextstate.S0.DATAB
+R => nextstate.S0.DATAA
+R => nextstate.S1.DATAA
+
+
+|state_mashine_parade|state_mashine_lights:state_mashine_lights
+CLK => state[1].CLK
+CLK => state[0].CLK
+M => always1~0.IN0
+move_a => Selector0.IN1
+move_b => always1~0.IN1
+reset => state[1].ACLR
+reset => state[0].ACLR
+Light_A[0] <= state[0].DB_MAX_OUTPUT_PORT_TYPE
+Light_A[1] <= state[1].DB_MAX_OUTPUT_PORT_TYPE
+Light_B[0] <= Light_B~2.DB_MAX_OUTPUT_PORT_TYPE
+Light_B[1] <= Light_B~1.DB_MAX_OUTPUT_PORT_TYPE
+
+

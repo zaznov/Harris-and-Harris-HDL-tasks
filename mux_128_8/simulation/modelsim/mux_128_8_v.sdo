@@ -1,0 +1,2687 @@
+// Copyright (C) 1991-2009 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+
+// 
+// Device: Altera EPF10K50SQC240-3 Package PQFP240
+// 
+
+// 
+// This SDF file should be used for ModelSim-Altera (Verilog) only
+// 
+
+(DELAYFILE
+  (SDFVERSION "2.1")
+  (DESIGN "mux_128_8")
+  (DATE "03/16/2021 15:53:58")
+  (VENDOR "Altera")
+  (PROGRAM "Quartus II")
+  (VERSION "Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition")
+  (DIVIDER .)
+  (TIMESCALE 1 ns)
+
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_10\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (2.2:2.2:2.2) (2.2:2.2:2.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_9\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_8\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux7\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3:3:3) (3:3:3))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (2.5:2.5:2.5) (2.5:2.5:2.5))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_11\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux7\~1.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (3.2:3.2:3.2) (3.2:3.2:3.2))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_5\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_2\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_13\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_6\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_10\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_2\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux6\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (2.8:2.8:2.8) (2.8:2.8:2.8))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (2.7:2.7:2.7) (2.7:2.7:2.7))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_14\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux6\~1.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (2.7:2.7:2.7) (2.7:2.7:2.7))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_9\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_4\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_11\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_6\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_5\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_4\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux5\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3.4:3.4:3.4) (3.4:3.4:3.4))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3.1:3.1:3.1) (3.1:3.1:3.1))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_7\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux5\~1.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3.6:3.6:3.6) (3.6:3.6:3.6))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (3:3:3) (3:3:3))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_9\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_1\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_14\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_5\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_9\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_1\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux4\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3:3:3) (3:3:3))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3:3:3) (3:3:3))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_13\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux4\~1.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (2.5:2.5:2.5) (2.5:2.5:2.5))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (2.6:2.6:2.6) (2.6:2.6:2.6))
+        (PORT datad (3.8:3.8:3.8) (3.8:3.8:3.8))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_10\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_8\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_7\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_10\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_9\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_8\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux3\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (2.9:2.9:2.9) (2.9:2.9:2.9))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3.1:3.1:3.1) (3.1:3.1:3.1))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_11\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux3\~1.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3.6:3.6:3.6) (3.6:3.6:3.6))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (3.1:3.1:3.1) (3.1:3.1:3.1))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_5\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_2\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_13\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_6\[5\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_10\[5\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_2\[5\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux2\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3:3:3) (3:3:3))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3:3:3) (3:3:3))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_14\[5\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux2\~1.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_9\[5\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_4\[5\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_11\[5\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_6\[6\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_5\[6\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_4\[6\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux1\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (2.9:2.9:2.9) (2.9:2.9:2.9))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_7\[6\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux1\~1.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (2.8:2.8:2.8) (2.8:2.8:2.8))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_9\[6\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_1\[6\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_14\[6\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_5\[7\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_9\[7\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_1\[7\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux0\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3:3:3) (3:3:3))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_13\[7\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux0\~1.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (2.9:2.9:2.9) (2.9:2.9:2.9))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_10\[7\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_8\[7\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_7\[7\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE mux_sel\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (2.2:2.2:2.2) (2.2:2.2:2.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE mux_sel\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (2.2:2.2:2.2) (2.2:2.2:2.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_6\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE mux_sel\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (2.2:2.2:2.2) (2.2:2.2:2.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_4\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux7\~2.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (2.6:2.6:2.6) (2.6:2.6:2.6))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3.1:3.1:3.1) (3.1:3.1:3.1))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_7\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux7\~3.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3.1:3.1:3.1) (3.1:3.1:3.1))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (3.1:3.1:3.1) (3.1:3.1:3.1))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE mux_sel\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (2.2:2.2:2.2) (2.2:2.2:2.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_1\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_0\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux7\~4.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (2.6:2.6:2.6) (2.6:2.6:2.6))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3.1:3.1:3.1) (3.1:3.1:3.1))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_3\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux7\~5.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (2.5:2.5:2.5) (2.5:2.5:2.5))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (2.1:2.1:2.1) (2.1:2.1:2.1))
+        (PORT datad (2.7:2.7:2.7) (2.7:2.7:2.7))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux7\~6.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_14\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_12\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux7\~7.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3.1:3.1:3.1) (3.1:3.1:3.1))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3.1:3.1:3.1) (3.1:3.1:3.1))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_15\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux7\~8.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (2.6:2.6:2.6) (2.6:2.6:2.6))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (2.5:2.5:2.5) (2.5:2.5:2.5))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux7\~9.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (2.2:2.2:2.2) (2.2:2.2:2.2))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE mux_sel\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (2.2:2.2:2.2) (2.2:2.2:2.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux7\~10.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_5\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_1\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux6\~2.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_13\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux6\~3.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3:3:3) (3:3:3))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (2.8:2.8:2.8) (2.8:2.8:2.8))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_8\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_0\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux6\~4.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3.1:3.1:3.1) (3.1:3.1:3.1))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3:3:3) (3:3:3))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_12\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux6\~5.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (2.7:2.7:2.7) (2.7:2.7:2.7))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (2.9:2.9:2.9) (2.9:2.9:2.9))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux6\~6.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_7\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_3\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux6\~7.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (2.8:2.8:2.8) (2.8:2.8:2.8))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3:3:3) (3:3:3))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_15\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux6\~8.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3:3:3) (3:3:3))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (PORT datad (2.8:2.8:2.8) (2.8:2.8:2.8))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux6\~9.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux6\~10.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_10\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_8\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux5\~2.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (2.4:2.4:2.4) (2.4:2.4:2.4))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3:3:3) (3:3:3))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_11\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux5\~3.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3:3:3) (3:3:3))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (3.1:3.1:3.1) (3.1:3.1:3.1))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_2\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_0\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux5\~4.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (2.4:2.4:2.4) (2.4:2.4:2.4))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3.2:3.2:3.2) (3.2:3.2:3.2))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_3\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux5\~5.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3:3:3) (3:3:3))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (PORT datad (3:3:3) (3:3:3))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux5\~6.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_13\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_12\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux5\~7.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3.6:3.6:3.6) (3.6:3.6:3.6))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3.1:3.1:3.1) (3.1:3.1:3.1))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_15\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux5\~8.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (2.6:2.6:2.6) (2.6:2.6:2.6))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (3:3:3) (3:3:3))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux5\~9.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux5\~10.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_6\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_2\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux4\~2.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3.8:3.8:3.8) (3.8:3.8:3.8))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (2.5:2.5:2.5) (2.5:2.5:2.5))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_14\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux4\~3.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3.8:3.8:3.8) (3.8:3.8:3.8))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (2.3:2.3:2.3) (2.3:2.3:2.3))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_4\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_0\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux4\~4.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (2.5:2.5:2.5) (2.5:2.5:2.5))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (2.9:2.9:2.9) (2.9:2.9:2.9))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_12\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux4\~5.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (2.5:2.5:2.5) (2.5:2.5:2.5))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (3.8:3.8:3.8) (3.8:3.8:3.8))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux4\~6.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_11\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_3\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux4\~7.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3:3:3) (3:3:3))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3:3:3) (3:3:3))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_15\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux4\~8.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (2.8:2.8:2.8) (2.8:2.8:2.8))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux4\~9.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (2.6:2.6:2.6) (2.6:2.6:2.6))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux4\~10.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_6\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_4\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux3\~2.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3.2:3.2:3.2) (3.2:3.2:3.2))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3.3:3.3:3.3) (3.3:3.3:3.3))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_7\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux3\~3.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3.1:3.1:3.1) (3.1:3.1:3.1))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (2.6:2.6:2.6) (2.6:2.6:2.6))
+        (PORT datad (3.1:3.1:3.1) (3.1:3.1:3.1))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_1\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_0\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux3\~4.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (2.9:2.9:2.9) (2.9:2.9:2.9))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_3\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux3\~5.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3:3:3) (3:3:3))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (2.9:2.9:2.9) (2.9:2.9:2.9))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux3\~6.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (1.4:1.4:1.4) (1.4:1.4:1.4))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_14\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_12\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux3\~7.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3.1:3.1:3.1) (3.1:3.1:3.1))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3.3:3.3:3.3) (3.3:3.3:3.3))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_15\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux3\~8.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3.6:3.6:3.6) (3.6:3.6:3.6))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (3.6:3.6:3.6) (3.6:3.6:3.6))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux3\~9.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux3\~10.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_5\[5\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_1\[5\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux2\~2.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (2.4:2.4:2.4) (2.4:2.4:2.4))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3:3:3) (3:3:3))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_13\[5\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux2\~3.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (2.6:2.6:2.6) (2.6:2.6:2.6))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_8\[5\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_0\[5\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux2\~4.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3.1:3.1:3.1) (3.1:3.1:3.1))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3.2:3.2:3.2) (3.2:3.2:3.2))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_12\[5\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux2\~5.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (2.7:2.7:2.7) (2.7:2.7:2.7))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (3:3:3) (3:3:3))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux2\~6.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (2.2:2.2:2.2) (2.2:2.2:2.2))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_7\[5\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_3\[5\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux2\~7.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3:3:3) (3:3:3))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_15\[5\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux2\~8.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (2.4:2.4:2.4) (2.4:2.4:2.4))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux2\~9.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux2\~10.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datac (2.5:2.5:2.5) (2.5:2.5:2.5))
+        (PORT datad (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_10\[6\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_8\[6\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux1\~2.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (2.9:2.9:2.9) (2.9:2.9:2.9))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_11\[6\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux1\~3.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (2.8:2.8:2.8) (2.8:2.8:2.8))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_2\[6\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_0\[6\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux1\~4.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (2.7:2.7:2.7) (2.7:2.7:2.7))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (2.6:2.6:2.6) (2.6:2.6:2.6))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_3\[6\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux1\~5.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (2.6:2.6:2.6) (2.6:2.6:2.6))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux1\~6.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (2.2:2.2:2.2) (2.2:2.2:2.2))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_13\[6\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_12\[6\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux1\~7.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (2.5:2.5:2.5) (2.5:2.5:2.5))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_15\[6\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux1\~8.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (2.5:2.5:2.5) (2.5:2.5:2.5))
+        (PORT datad (2.8:2.8:2.8) (2.8:2.8:2.8))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux1\~9.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux1\~10.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_6\[7\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_2\[7\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux0\~2.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (2.9:2.9:2.9) (2.9:2.9:2.9))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (2.6:2.6:2.6) (2.6:2.6:2.6))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_14\[7\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux0\~3.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (2.9:2.9:2.9) (2.9:2.9:2.9))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (2.6:2.6:2.6) (2.6:2.6:2.6))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_4\[7\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_0\[7\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux0\~4.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (2.6:2.6:2.6) (2.6:2.6:2.6))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (3:3:3) (3:3:3))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_12\[7\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux0\~5.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3.8:3.8:3.8) (3.8:3.8:3.8))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (2.6:2.6:2.6) (2.6:2.6:2.6))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux0\~6.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_11\[7\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_3\[7\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3.7:3.7:3.7) (3.7:3.7:3.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux0\~7.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datab (3:3:3) (3:3:3))
+        (PORT datac (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datad (2.7:2.7:2.7) (2.7:2.7:2.7))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_15\[7\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio dataout (3:3:3) (3:3:3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux0\~8.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (2.6:2.6:2.6) (2.6:2.6:2.6))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (3.7:3.7:3.7) (3.7:3.7:3.7))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux0\~9.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datab (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (PORT datac (2.1:2.1:2.1) (2.1:2.1:2.1))
+        (PORT datad (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (IOPATH dataa combout (1.6:1.6:1.6) (1.6:1.6:1.6))
+        (IOPATH datab combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_lcell")
+    (INSTANCE Mux0\~10.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datac (0.2:0.2:0.2) (0.2:0.2:0.2))
+        (PORT datad (1.8:1.8:1.8) (1.8:1.8:1.8))
+        (IOPATH datac combout (1.5:1.5:1.5) (1.5:1.5:1.5))
+        (IOPATH datad combout (1.4:1.4:1.4) (1.4:1.4:1.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_out\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (1.2:1.2:1.2) (1.2:1.2:1.2))
+        (IOPATH datain padio (4.6:4.6:4.6) (4.6:4.6:4.6))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_out\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (1.3:1.3:1.3) (1.3:1.3:1.3))
+        (IOPATH datain padio (4.9:4.9:4.9) (4.9:4.9:4.9))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_out\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (1.3:1.3:1.3) (1.3:1.3:1.3))
+        (IOPATH datain padio (4.6:4.6:4.6) (4.6:4.6:4.6))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_out\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (1.1:1.1:1.1) (1.1:1.1:1.1))
+        (IOPATH datain padio (4.6:4.6:4.6) (4.6:4.6:4.6))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_out\[4\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (1:1:1) (1:1:1))
+        (IOPATH datain padio (4.9:4.9:4.9) (4.9:4.9:4.9))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_out\[5\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (1.3:1.3:1.3) (1.3:1.3:1.3))
+        (IOPATH datain padio (4.6:4.6:4.6) (4.6:4.6:4.6))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_out\[6\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (1.1:1.1:1.1) (1.1:1.1:1.1))
+        (IOPATH datain padio (4.6:4.6:4.6) (4.6:4.6:4.6))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "flex10ke_asynch_io")
+    (INSTANCE data_out\[7\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (1.3:1.3:1.3) (1.3:1.3:1.3))
+        (IOPATH datain padio (4.9:4.9:4.9) (4.9:4.9:4.9))
+      )
+    )
+  )
+)

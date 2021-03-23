@@ -1,0 +1,13 @@
+|state_mashine
+CLK => state[1].CLK
+CLK => state[0].CLK
+move_a => Selector0.IN1
+move_b => Selector0.IN2
+reset => state[1].ACLR
+reset => state[0].ACLR
+Light_A[0] <= state[0].DB_MAX_OUTPUT_PORT_TYPE
+Light_A[1] <= state[1].DB_MAX_OUTPUT_PORT_TYPE
+Light_B[0] <= Light_B~2.DB_MAX_OUTPUT_PORT_TYPE
+Light_B[1] <= Light_B~1.DB_MAX_OUTPUT_PORT_TYPE
+
+
