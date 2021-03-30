@@ -1,0 +1,17 @@
+|gray_up_down
+CLK => Y[2]~reg0.CLK
+CLK => Y[1]~reg0.CLK
+CLK => Y[0]~reg0.CLK
+down => nextstate.S7.OUTPUTSELECT
+down => nextstate.S6.OUTPUTSELECT
+down => nextstate.S5.OUTPUTSELECT
+down => nextstate.S4.OUTPUTSELECT
+down => nextstate.S3.OUTPUTSELECT
+down => nextstate.S2.OUTPUTSELECT
+down => nextstate.S1.OUTPUTSELECT
+down => nextstate.S0.OUTPUTSELECT
+Y[0] <= Y[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

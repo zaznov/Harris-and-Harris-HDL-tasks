@@ -1,0 +1,9 @@
+|gray_up
+CLK => Y[2]~reg0.CLK
+CLK => Y[1]~reg0.CLK
+CLK => Y[0]~reg0.CLK
+Y[0] <= Y[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
